@@ -1,0 +1,1 @@
+"""\nSuperClaude MVP\nSimplified CLI Framework Manager\n\nA minimal viable product focusing on core installation and file management.\n"""\n\nfrom pathlib import Path\n\n__version__ = "0.1.0"\n__author__ = "GitMVP"\n__license__ = "MIT"\n\n# Package root directory\nPACKAGE_ROOT = Path(__file__).parent\nDATA_DIR = PACKAGE_ROOT / "data"\n
