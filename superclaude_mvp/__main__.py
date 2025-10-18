@@ -1,0 +1,1 @@
+"""\nSuperClaude MVP\nEntry point when running as: python -m superclaude_mvp\n"""\n\nimport sys\nfrom superclaude_mvp.cli import main\n\nif __name__ == "__main__":\n    sys.exit(main())\n
