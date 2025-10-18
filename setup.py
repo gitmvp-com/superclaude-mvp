@@ -1,0 +1,1 @@
+"""\nSetup.py for SuperClaude MVP\n\nThis is a minimal setup.py that defers to pyproject.toml for configuration.\nModern Python packaging uses pyproject.toml as the primary configuration file.\n"""\n\nfrom setuptools import setup\n\n# All configuration is now in pyproject.toml\nsetup()\n
